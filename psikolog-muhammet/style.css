@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+  }
+  
+  /* Hero alanı */
+  .hero {
+    background-image: url('assets/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+  }
+  
+  .btn {
+    background: #ffffff;
+    color: #005f73;
+    padding: 12px 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #005f73;
+    color: #fff;
+  }
+  
+  /* Giriş bölümü */
+  .intro {
+    background-color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .intro h2 {
+    color: #005f73;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  /* Navbar düzenlemeleri */
+ .navbar {
+    background-color: #222;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .navbar a:hover {
+    color: #005f73;
+  }
+  
+  .navbar .active {
+    font-weight: bold;
+  }
+  
+  /* Hakkımda Sayfası */
+  .about-me {
+    background-color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .about-me h2 {
+    color: #005f73;
+    margin-bottom: 20px;
+  }
+  
+  .about-me p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    max-width: 300px;
+    border-radius: 50%;
+    margin: 20px 0;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  /* Hizmetler Sayfası */
+.services {
+    background-color: white;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .services h2 {
+    color: #005f73;
+    margin-bottom: 30px;
+  }
+  
+  .services p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .service-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item h3 {
+    color: #005f73;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    color: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  /* Randevu Sayfası */
+.appointment {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .appointment h2 {
+    color: #005f73;
+    margin-bottom: 20px;
+  }
+  
+  .appointment p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button.submit-btn {
+    background-color: #005f73;
+    color: white;
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.submit-btn:hover {
+    background-color: #008b8b;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  /* Blog Sayfası */
+.blog {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .blog h2 {
+    color: #005f73;
+    margin-bottom: 20px;
+  }
+  
+  .blog p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .blog-post {
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post h3 {
+    color: #005f73;
+    margin-bottom: 15px;
+  }
+  
+  .blog-post p {
+    color: #555;
+  }
+  
+  .blog-post a {
+    color: #005f73;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .blog-post a:hover {
+    color: #008b8b;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  
+  
